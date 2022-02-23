@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/Page_My Store/a_Sign in'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Login - My Store/input_Email address_email'), 'hazak.tester@test.com')
 
-WebUI.setText(findTestObject('Object Repository/Page_Login - My Store/input_Password_passwd'), '1234567')
+WebUI.setText(findTestObject('Object Repository/Page_Login - My Store/input_Password_passwd'), '*********')
 
 WebUI.click(findTestObject('Object Repository/Page_Login - My Store/span_Sign in'))
 
