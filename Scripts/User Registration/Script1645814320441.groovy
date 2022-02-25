@@ -21,65 +21,65 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://automationpractice.com/index.php')
 
-WebUI.click(findTestObject('Page_My Store/a_Sign in'))
+WebUI.click(findTestObject('HomePage/a_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Login - My Store/input_Email address_email_create'))
+WebUI.click(findTestObject('LoginPage/input_Email address_email_create'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Login - My Store/input_Email address_email_create'), 'peterjenkins777@test.com')
+WebUI.setText(findTestObject('LoginPage/input_Email address_email_create'), 'peterjenkins777@test.com')
 
-WebUI.click(findTestObject('Object Repository/Page_Login - My Store/span_Create an account'))
+WebUI.click(findTestObject('LoginPage/span_Create an account'))
 
-WebUI.click(findTestObject('Object Repository/Page_Login - My Store/input_Mr_id_gender'))
+WebUI.click(findTestObject('RegistrationPage/input_Mr_id_gender'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Login - My Store/input__customer_firstname'), 'Peter')
+WebUI.setText(findTestObject('RegistrationPage/input__customer_firstname'), 'Peter')
 
-WebUI.setText(findTestObject('Object Repository/Page_Login - My Store/input__customer_lastname'), 'Jenkins')
+WebUI.setText(findTestObject('RegistrationPage/input__customer_lastname'), 'Jenkins')
 
-WebUI.click(findTestObject('Object Repository/Page_Login - My Store/input__email'))
+WebUI.click(findTestObject('RegistrationPage/input__email'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login - My Store/input__passwd'), 'eFl1iyAb2pw=')
+WebUI.setEncryptedText(findTestObject('RegistrationPage/input__passwd'), 'eFl1iyAb2pw=')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Login - My Store/select_-12345678910111213141516171819202122_51e29d'), 
+WebUI.selectOptionByValue(findTestObject('RegistrationPage/select_-12345678910111213141516171819202122_51e29d'), 
     '12', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Login - My Store/select_-JanuaryFebruaryMarchAprilMayJuneJul_702766'), 
+WebUI.selectOptionByValue(findTestObject('RegistrationPage/select_-JanuaryFebruaryMarchAprilMayJuneJul_702766'), 
     '7', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Login - My Store/select_-20222021202020192018201720162015201_66c453'), 
+WebUI.selectOptionByValue(findTestObject('RegistrationPage/select_-20222021202020192018201720162015201_66c453'), 
     '2007', true)
 
-WebUI.click(findTestObject('Object Repository/Page_Login - My Store/input_July_newsletter'))
+WebUI.click(findTestObject('RegistrationPage/input_July_newsletter'))
 
-WebUI.click(findTestObject('Object Repository/Page_Login - My Store/input_Sign up for our newsletter_optin'))
+WebUI.click(findTestObject('RegistrationPage/input_Sign up for our newsletter_optin'))
 
-WebUI.click(findTestObject('Object Repository/Page_Login - My Store/input_July_newsletter'))
+WebUI.click(findTestObject('RegistrationPage/input_July_newsletter'))
 
-WebUI.click(findTestObject('Object Repository/Page_Login - My Store/input_Sign up for our newsletter_optin'))
+WebUI.click(findTestObject('RegistrationPage/input_Sign up for our newsletter_optin'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Login - My Store/input_Company_company'), 'Test Co')
+WebUI.setText(findTestObject('RegistrationPage/input_Company_company'), 'Test Co')
 
-WebUI.click(findTestObject('Object Repository/Page_Login - My Store/input__address1'))
+WebUI.click(findTestObject('RegistrationPage/input__address1'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Login - My Store/input__address1'), '77 Main Street')
+WebUI.setText(findTestObject('RegistrationPage/input__address1'), '77 Main Street')
 
-WebUI.setText(findTestObject('Object Repository/Page_Login - My Store/input_Address (Line 2)_address2'), 'suite 34')
+WebUI.setText(findTestObject('RegistrationPage/input_Address (Line 2)_address2'), 'suite 34')
 
-WebUI.setText(findTestObject('Object Repository/Page_Login - My Store/input__city'), 'London')
+WebUI.setText(findTestObject('RegistrationPage/input__city'), 'London')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Login - My Store/select_-AlabamaAlaskaArizonaArkansasCalifor_c52141'), 
+WebUI.selectOptionByValue(findTestObject('RegistrationPage/select_-AlabamaAlaskaArizonaArkansasCalifor_c52141'), 
     '14', true)
 
-WebUI.setText(findTestObject('Object Repository/Page_Login - My Store/input__postcode'), '98765')
+WebUI.setText(findTestObject('RegistrationPage/input__postcode'), '98765')
 
-WebUI.setText(findTestObject('Object Repository/Page_Login - My Store/textarea_Additional information_other'), 'No')
+WebUI.setText(findTestObject('RegistrationPage/textarea_Additional information_other'), 'No')
 
-WebUI.click(findTestObject('Object Repository/Page_Login - My Store/input_Home phone_phone'))
+WebUI.click(findTestObject('RegistrationPage/input_Home phone_phone'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Login - My Store/input_Home phone_phone'), '2234 0978')
+WebUI.setText(findTestObject('RegistrationPage/input_Home phone_phone'), '2234 0978')
 
-WebUI.setText(findTestObject('Object Repository/Page_Login - My Store/input__phone_mobile'), '09987 765432')
+WebUI.setText(findTestObject('RegistrationPage/input__phone_mobile'), '09987 765432')
 
-WebUI.click(findTestObject('Object Repository/Page_Login - My Store/span_Register'))
+WebUI.click(findTestObject('RegistrationPage/span_Register'))
 
 WebUI.closeBrowser()
 
