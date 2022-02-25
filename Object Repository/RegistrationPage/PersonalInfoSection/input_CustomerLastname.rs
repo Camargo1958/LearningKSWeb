@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Mrs_id_gender</name>
+   <name>input_CustomerLastname</name>
    <tag></tag>
-   <elementGuidId>05a9b172-4c0d-4021-93d7-6c7de4c61829</elementGuidId>
+   <elementGuidId>6a6bdc5b-1515-4aec-915a-b3b4cdcff469</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#id_gender2</value>
+         <value>#customer_lastname</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='id_gender2']</value>
+         <value>//input[@id='customer_lastname']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,66 +24,80 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>onkeyup</name>
       <type>Main</type>
-      <value>radio</value>
+      <value>$('#lastname').val(this.value);</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>type</name>
       <type>Main</type>
-      <value>id_gender</value>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>is_required validate form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-validate</name>
+      <type>Main</type>
+      <value>isName</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>id_gender2</value>
+      <value>customer_lastname</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>name</name>
       <type>Main</type>
-      <value>2</value>
+      <value>customer_lastname</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;id_gender2&quot;)</value>
+      <value>id(&quot;customer_lastname&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='id_gender2']</value>
+      <value>//input[@id='customer_lastname']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='uniform-id_gender2']/span/input</value>
+      <value>//form[@id='account-creation_form']/div/div[3]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/label/div/span/input</value>
+      <value>//div[3]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'radio' and @name = 'id_gender' and @id = 'id_gender2']</value>
+      <value>//input[@type = 'text' and @id = 'customer_lastname' and @name = 'customer_lastname']</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -23,15 +23,15 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('automationpractice.com')
 
-WebUI.click(findTestObject('HomePage/a_Sign in'))
+WebUI.click(findTestObject('HomePage/button_SignIn'))
 
-WebUI.setText(findTestObject('LoginPage/input_Email address_email'), 'hazak.tester@test.com')
+WebUI.setText(findTestObject('LoginPage/LoginSection/input_EmailAddress'), 'hazak.tester@test.com')
 
-WebUI.setText(findTestObject('LoginPage/input_Password_passwd'), '*********')
+WebUI.setText(findTestObject('LoginPage/LoginSection/input_Password'), '*********')
 
-WebUI.click(findTestObject('LoginPage/span_Sign in'))
+WebUI.click(findTestObject('LoginPage/LoginSection/button_SignIn'))
 
-WebUI.verifyElementVisible(findTestObject('MyAccountPage/h1_My account'))
+WebUI.verifyElementVisible(findTestObject('MyAccountPage/h1_MyAccount'))
 
 WebUI.closeBrowser()
 

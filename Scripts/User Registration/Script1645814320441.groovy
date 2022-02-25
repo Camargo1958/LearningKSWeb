@@ -21,42 +21,42 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://automationpractice.com/index.php')
 
-WebUI.click(findTestObject('HomePage/a_Sign in'))
+WebUI.click(findTestObject('HomePage/button_SignIn'))
 
-WebUI.click(findTestObject('LoginPage/input_Email address_email_create'))
+WebUI.click(findTestObject('LoginPage/RegistrationSection/input_EmailAddress'))
 
-WebUI.setText(findTestObject('LoginPage/input_Email address_email_create'), 'peterjenkins777@test.com')
+WebUI.setText(findTestObject('LoginPage/RegistrationSection/input_EmailAddress'), 'peterjenkins777@test.com')
 
-WebUI.click(findTestObject('LoginPage/span_Create an account'))
+WebUI.click(findTestObject('LoginPage/RegistrationSection/button_CreateAnAccount'))
 
-WebUI.click(findTestObject('RegistrationPage/input_Mr_id_gender'))
+WebUI.click(findTestObject('RegistrationPage/radio_Gender_Mr'))
 
-WebUI.setText(findTestObject('RegistrationPage/input__customer_firstname'), 'Peter')
+WebUI.setText(findTestObject('RegistrationPage/PersonalInfoSection/input_CustomerFirstname'), 'Peter')
 
-WebUI.setText(findTestObject('RegistrationPage/input__customer_lastname'), 'Jenkins')
+WebUI.setText(findTestObject('RegistrationPage/PersonalInfoSection/input_CustomerLastname'), 'Jenkins')
 
 WebUI.click(findTestObject('RegistrationPage/input__email'))
 
 WebUI.setEncryptedText(findTestObject('RegistrationPage/input__passwd'), 'eFl1iyAb2pw=')
 
-WebUI.selectOptionByValue(findTestObject('RegistrationPage/select_-12345678910111213141516171819202122_51e29d'), 
+WebUI.selectOptionByValue(findTestObject('RegistrationPage/select_DoB_Day'), 
     '12', true)
 
-WebUI.selectOptionByValue(findTestObject('RegistrationPage/select_-JanuaryFebruaryMarchAprilMayJuneJul_702766'), 
+WebUI.selectOptionByValue(findTestObject('RegistrationPage/select_DoB_Month'), 
     '7', true)
 
-WebUI.selectOptionByValue(findTestObject('RegistrationPage/select_-20222021202020192018201720162015201_66c453'), 
+WebUI.selectOptionByValue(findTestObject('RegistrationPage/select_DoB_Year'), 
     '2007', true)
 
-WebUI.click(findTestObject('RegistrationPage/input_July_newsletter'))
+WebUI.click(findTestObject('RegistrationPage/check_SignUpForNewsletter'))
 
-WebUI.click(findTestObject('RegistrationPage/input_Sign up for our newsletter_optin'))
+WebUI.click(findTestObject('RegistrationPage/check_PartnerSpecialOffers'))
 
-WebUI.click(findTestObject('RegistrationPage/input_July_newsletter'))
+WebUI.click(findTestObject('RegistrationPage/check_SignUpForNewsletter'))
 
-WebUI.click(findTestObject('RegistrationPage/input_Sign up for our newsletter_optin'))
+WebUI.click(findTestObject('RegistrationPage/check_PartnerSpecialOffers'))
 
-WebUI.setText(findTestObject('RegistrationPage/input_Company_company'), 'Test Co')
+WebUI.setText(findTestObject('RegistrationPage/input_Company'), 'Test Co')
 
 WebUI.click(findTestObject('RegistrationPage/input__address1'))
 
@@ -66,20 +66,20 @@ WebUI.setText(findTestObject('RegistrationPage/input_Address (Line 2)_address2')
 
 WebUI.setText(findTestObject('RegistrationPage/input__city'), 'London')
 
-WebUI.selectOptionByValue(findTestObject('RegistrationPage/select_-AlabamaAlaskaArizonaArkansasCalifor_c52141'), 
+WebUI.selectOptionByValue(findTestObject('RegistrationPage/select_State'), 
     '14', true)
 
 WebUI.setText(findTestObject('RegistrationPage/input__postcode'), '98765')
 
 WebUI.setText(findTestObject('RegistrationPage/textarea_Additional information_other'), 'No')
 
-WebUI.click(findTestObject('RegistrationPage/input_Home phone_phone'))
+WebUI.click(findTestObject('RegistrationPage/input_Home phone'))
 
-WebUI.setText(findTestObject('RegistrationPage/input_Home phone_phone'), '2234 0978')
+WebUI.setText(findTestObject('RegistrationPage/input_Home phone'), '2234 0978')
 
 WebUI.setText(findTestObject('RegistrationPage/input__phone_mobile'), '09987 765432')
 
-WebUI.click(findTestObject('RegistrationPage/span_Register'))
+WebUI.click(findTestObject('RegistrationPage/button_Register'))
 
 WebUI.closeBrowser()
 

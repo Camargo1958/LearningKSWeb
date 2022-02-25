@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_-AlabamaAlaskaArizonaArkansasCalifor_c52141</name>
+   <name>select_DoB_Month</name>
    <tag></tag>
-   <elementGuidId>dcce6d77-b5b3-401f-8c7d-f8a37fc01cdc</elementGuidId>
+   <elementGuidId>53de14a1-0262-4ea1-a600-272df3118fd3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#id_state</value>
+         <value>#months</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='id_state']</value>
+         <value>//select[@id='months']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,16 +26,16 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>id</name>
       <type>Main</type>
-      <value>id_state</value>
+      <value>months</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>name</name>
       <type>Main</type>
-      <value>id_state</value>
+      <value>months</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,67 +50,110 @@
       <name>text</name>
       <type>Main</type>
       <value>
-								-
-							AlabamaAlaskaArizonaArkansasCaliforniaColoradoConnecticutDelawareDistrict of ColumbiaFloridaGeorgiaHawaiiIdahoIllinoisIndianaIowaKansasKentuckyLouisianaMaineMarylandMassachusettsMichiganMinnesotaMississippiMissouriMontanaNebraskaNevadaNew HampshireNew JerseyNew MexicoNew YorkNorth CarolinaNorth DakotaOhioOklahomaOregonPennsylvaniaPuerto RicoRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUS Virgin IslandsUtahVermontVirginiaWashingtonWest VirginiaWisconsinWyoming</value>
+							-
+															January 
+															February 
+															March 
+															April 
+															May 
+															June 
+															July 
+															August 
+															September 
+															October 
+															November 
+															December 
+													</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;id_state&quot;)</value>
+      <value>id(&quot;months&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='id_state']</value>
+      <value>//select[@id='months']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='uniform-id_state']/select</value>
+      <value>//div[@id='uniform-months']/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[4]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[2]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[9]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date of Birth'])[1]/following::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[10]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[4]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign up for our newsletter!'])[1]/preceding::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p[7]/div/select</value>
+      <value>//div[2]/div/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//select[@name = 'id_state' and @id = 'id_state' and (text() = '
-								-
-							AlabamaAlaskaArizonaArkansasCaliforniaColoradoConnecticutDelawareDistrict of ColumbiaFloridaGeorgiaHawaiiIdahoIllinoisIndianaIowaKansasKentuckyLouisianaMaineMarylandMassachusettsMichiganMinnesotaMississippiMissouriMontanaNebraskaNevadaNew HampshireNew JerseyNew MexicoNew YorkNorth CarolinaNorth DakotaOhioOklahomaOregonPennsylvaniaPuerto RicoRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUS Virgin IslandsUtahVermontVirginiaWashingtonWest VirginiaWisconsinWyoming' or . = '
-								-
-							AlabamaAlaskaArizonaArkansasCaliforniaColoradoConnecticutDelawareDistrict of ColumbiaFloridaGeorgiaHawaiiIdahoIllinoisIndianaIowaKansasKentuckyLouisianaMaineMarylandMassachusettsMichiganMinnesotaMississippiMissouriMontanaNebraskaNevadaNew HampshireNew JerseyNew MexicoNew YorkNorth CarolinaNorth DakotaOhioOklahomaOregonPennsylvaniaPuerto RicoRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUS Virgin IslandsUtahVermontVirginiaWashingtonWest VirginiaWisconsinWyoming')]</value>
+      <value>//select[@id = 'months' and @name = 'months' and (text() = '
+							-
+															January 
+															February 
+															March 
+															April 
+															May 
+															June 
+															July 
+															August 
+															September 
+															October 
+															November 
+															December 
+													' or . = '
+							-
+															January 
+															February 
+															March 
+															April 
+															May 
+															June 
+															July 
+															August 
+															September 
+															October 
+															November 
+															December 
+													')]</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__customer_firstname</name>
+   <name>input_EmailAddress</name>
    <tag></tag>
-   <elementGuidId>719e7759-ee6d-4a5b-ade9-7f5c6bc0c2ab</elementGuidId>
+   <elementGuidId>25e6e90b-f687-459b-a0de-913fcac4499e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#customer_firstname</value>
+         <value>#email_create</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='customer_firstname']</value>
+         <value>//input[@id='email_create']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,13 +22,6 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onkeyup</name>
-      <type>Main</type>
-      <value>$('#firstname').val(this.value);</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,49 +35,49 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>is_required validate form-control</value>
+      <value>is_required validate account_input form-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-validate</name>
       <type>Main</type>
-      <value>isName</value>
+      <value>isEmail</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>customer_firstname</value>
+      <value>email_create</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>customer_firstname</value>
+      <value>email_create</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;customer_firstname&quot;)</value>
+      <value>id(&quot;email_create&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='customer_firstname']</value>
+      <value>//input[@id='email_create']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='account-creation_form']/div/div[2]/input</value>
+      <value>//form[@id='create-account_form']/div/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +91,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'customer_firstname' and @name = 'customer_firstname']</value>
+      <value>//input[@type = 'text' and @id = 'email_create' and @name = 'email_create']</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -21,12 +21,12 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://automationpractice.com/index.php')
 
-WebUI.click(findTestObject('HomePage/a_Sign in'))
+WebUI.click(findTestObject('HomePage/button_SignIn'))
 
-WebUI.setText(findTestObject('LoginPage/input_Email address_email'), 'hazak.tester@test.com')
+WebUI.setText(findTestObject('LoginPage/LoginSection/input_EmailAddress'), 'hazak.tester@test.com')
 
-WebUI.setEncryptedText(findTestObject('LoginPage/input_Password_passwd'), 'qeJ0sjJnwEs=')
+WebUI.setEncryptedText(findTestObject('LoginPage/LoginSection/input_Password'), 'qeJ0sjJnwEs=')
 
-WebUI.click(findTestObject('LoginPage/span_Sign in'))
+WebUI.click(findTestObject('LoginPage/LoginSection/button_SignIn'))
 
 WebUI.closeBrowser()

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_-20222021202020192018201720162015201_66c453</name>
+   <name>select_DoB_Year</name>
    <tag></tag>
    <elementGuidId>78f28338-24f1-47da-8555-d6094d598856</elementGuidId>
    <selectorCollection>

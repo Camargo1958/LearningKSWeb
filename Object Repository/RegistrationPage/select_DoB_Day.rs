@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_-JanuaryFebruaryMarchAprilMayJuneJul_702766</name>
+   <name>select_DoB_Day</name>
    <tag></tag>
-   <elementGuidId>53de14a1-0262-4ea1-a600-272df3118fd3</elementGuidId>
+   <elementGuidId>75bd4561-3677-4ec0-bfbc-316fe3e4f73c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#months</value>
+         <value>#days</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='months']</value>
+         <value>//select[@id='days']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,14 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>months</value>
+      <value>days</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>months</value>
+      <value>days</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,18 +51,37 @@
       <type>Main</type>
       <value>
 							-
-															January 
-															February 
-															March 
-															April 
-															May 
-															June 
-															July 
-															August 
-															September 
-															October 
-															November 
-															December 
+															1  
+															2  
+															3  
+															4  
+															5  
+															6  
+															7  
+															8  
+															9  
+															10  
+															11  
+															12  
+															13  
+															14  
+															15  
+															16  
+															17  
+															18  
+															19  
+															20  
+															21  
+															22  
+															23  
+															24  
+															25  
+															26  
+															27  
+															28  
+															29  
+															30  
+															31  
 													</value>
    </webElementProperties>
    <webElementProperties>
@@ -70,90 +89,128 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;months&quot;)</value>
+      <value>id(&quot;days&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='months']</value>
+      <value>//select[@id='days']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='uniform-months']/select</value>
+      <value>//div[@id='uniform-days']/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[2]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date of Birth'])[1]/following::select[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date of Birth'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[4]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[3]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign up for our newsletter!'])[1]/preceding::select[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[5]/preceding::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/select</value>
+      <value>//select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//select[@id = 'months' and @name = 'months' and (text() = '
+      <value>//select[@id = 'days' and @name = 'days' and (text() = '
 							-
-															January 
-															February 
-															March 
-															April 
-															May 
-															June 
-															July 
-															August 
-															September 
-															October 
-															November 
-															December 
+															1  
+															2  
+															3  
+															4  
+															5  
+															6  
+															7  
+															8  
+															9  
+															10  
+															11  
+															12  
+															13  
+															14  
+															15  
+															16  
+															17  
+															18  
+															19  
+															20  
+															21  
+															22  
+															23  
+															24  
+															25  
+															26  
+															27  
+															28  
+															29  
+															30  
+															31  
 													' or . = '
 							-
-															January 
-															February 
-															March 
-															April 
-															May 
-															June 
-															July 
-															August 
-															September 
-															October 
-															November 
-															December 
+															1  
+															2  
+															3  
+															4  
+															5  
+															6  
+															7  
+															8  
+															9  
+															10  
+															11  
+															12  
+															13  
+															14  
+															15  
+															16  
+															17  
+															18  
+															19  
+															20  
+															21  
+															22  
+															23  
+															24  
+															25  
+															26  
+															27  
+															28  
+															29  
+															30  
+															31  
 													')]</value>
    </webElementXpaths>
 </WebElementEntity>

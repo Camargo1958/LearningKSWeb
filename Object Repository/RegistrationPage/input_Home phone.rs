@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__customer_lastname</name>
+   <name>input_Home phone</name>
    <tag></tag>
-   <elementGuidId>6a6bdc5b-1515-4aec-915a-b3b4cdcff469</elementGuidId>
+   <elementGuidId>6528d81a-cde7-43f6-bd13-227210953349</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#customer_lastname</value>
+         <value>#phone</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='customer_lastname']</value>
+         <value>//input[@id='phone']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,13 +22,6 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onkeyup</name>
-      <type>Main</type>
-      <value>$('#lastname').val(this.value);</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,62 +35,55 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>is_required validate form-control</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-validate</name>
-      <type>Main</type>
-      <value>isName</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>customer_lastname</value>
+      <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>customer_lastname</value>
+      <value>phone</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>phone</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;customer_lastname&quot;)</value>
+      <value>id(&quot;phone&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='customer_lastname']</value>
+      <value>//input[@id='phone']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='account-creation_form']/div/div[3]/input</value>
+      <value>//form[@id='account-creation_form']/div[2]/p[12]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/input</value>
+      <value>//p[12]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'customer_lastname' and @name = 'customer_lastname']</value>
+      <value>//input[@type = 'text' and @name = 'phone' and @id = 'phone']</value>
    </webElementXpaths>
 </WebElementEntity>
